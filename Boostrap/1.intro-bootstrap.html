@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional Custom Styles -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .jumbotron {
+            background-color: #007bff;
+            color: white;
+            padding: 30px;
+        }
+        .container {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Jumbotron for Introduction -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Bootstrap!</h1>
+        <p class="lead">Bootstrap is the most popular CSS framework for building responsive and mobile-first websites.</p>
+        <hr class="my-4">
+        <p>It provides a variety of pre-designed components that can be easily customized to create visually appealing websites.</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>What is Bootstrap?</h2>
+        <p>Bootstrap is a free, open-source front-end framework for developing websites and web applications. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components, as well as optional JavaScript extensions.</p>
+
+        <h3>Key Features:</h3>
+        <ul>
+            <li>Responsive grid system</li>
+            <li>Predefined styles for typography, buttons, forms, etc.</li>
+            <li>Customizable components like Navbar, Cards, Alerts, and more.</li>
+            <li>Cross-browser compatibility</li>
+        </ul>
+
+        <h3>Example of a Simple Button:</h3>
+        <p>Bootstrap provides a set of pre-styled buttons that you can use in your projects.</p>
+        <button class="btn btn-primary">Primary Button</button>
+        <button class="btn btn-secondary">Secondary Button</button>
+
+        <h3>Example of a Responsive Grid:</h3>
+        <p>The Bootstrap grid system allows you to create responsive layouts. Below is an example of a simple 2-column layout that will adjust based on screen size:</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="width: 100%;">
+                    <img src="london-england-actor-henry-cavill-arrives-at-the-uk-premiere-of-sucker-punch-at-vue-west-end.jpg" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">This is a simple example of a Bootstrap card component.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="width: 100%;">
+                    <img src="a780def89c8b-henry-cavill-witcher.jpg" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Another example of a Bootstrap card component.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

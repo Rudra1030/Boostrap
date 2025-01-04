@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row; /* Default it is row, no display flex then it shown in columns*/
+    flex-wrap: wrap; /* Allow the items to wrap onto the next line*/
+    /* flex-flow - shorthand for flex-direction and flex-wrap */
+    /* justify-content: space-between; */
+    align-items: end;
+    align-content: flex-end;
+    gap: 10px 50px;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+    background-color: aquamarine;
+}

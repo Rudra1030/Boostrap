@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Topics Index</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #faf3e0;
+            color: #4b4b4b;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 40px;
+            font-size: 2.5em;
+            text-align: center;
+            border-bottom: 5px solid #d3d3d3;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            margin: 0;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .header h2 {
+            font-size: 1.8em;
+            font-weight: 300;
+            margin-top: 10px;
+            animation: fadeIn 2.5s ease-out;
+        }
+
+        /* Card Container */
+        .container {
+            margin: 40px 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            justify-items: center;
+            animation: fadeIn 3s ease-out;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h3 {
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .card a {
+            text-decoration: none;
+            background-color: #ff7f50;
+            color: white;
+            font-size: 1.1em;
+            padding: 12px 30px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .card a:hover {
+            background-color: #e05e30;
+            transform: translateY(-5px);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .header {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .grid-container {
+                padding: 10px;
+            }
+
+            .card {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Bootstrap Topics</h1>
+        <h2>Select a Topic to Explore</h2>
+    </div>
+
+    <div class="container">
+        <div class="grid-container">
+            <div class="card">
+                <h3>Introduction to Bootstrap</h3>
+                <a href="1.intro-bootstrap.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Typography with Bootstrap</h3>
+                <a href="2.bootstrap-typography.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Image Classes in Bootstrap</h3>
+                <a href="3.bootstrap-images.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Buttons in Bootstrap</h3>
+                <a href="4.bootstrap-buttons.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Cards & Navbar</h3>
+                <a href="5.bootstrap-cards-navbar.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Responsive Forms & Carousel</h3>
+                <a href="6.responsive-forms-carousel.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Progress Bars</h3>
+                <a href="7.progress-bars.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Modals in Bootstrap</h3>
+                <a href="8.modals.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>No jQuery Dependency</h3>
+                <a href="9.no-jquery.html">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>Cross-Browser Compatibility</h3>
+                <a href="10.cross-browser.html">Explore</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

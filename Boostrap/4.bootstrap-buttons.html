@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Bootstrap Classes for Buttons</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional Custom Styles -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            padding-top: 30px;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .btn-block-example {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Bootstrap Buttons Example</h1>
+        <p class="lead text-center">This page demonstrates how to use different Bootstrap classes for styling buttons with various options.</p>
+
+        <!-- Default Buttons Section -->
+        <section class="section">
+            <h2>Default Buttons</h2>
+            <p>Bootstrap provides a set of predefined classes for creating buttons. Here are some basic button examples:</p>
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+            <button class="btn btn-success">Success Button</button>
+            <button class="btn btn-danger">Danger Button</button>
+            <button class="btn btn-warning">Warning Button</button>
+            <button class="btn btn-info">Info Button</button>
+            <button class="btn btn-light">Light Button</button>
+            <button class="btn btn-dark">Dark Button</button>
+            <button class="btn btn-link">Link Button</button>
+        </section>
+
+        <!-- Button Sizes Section -->
+        <section class="section">
+            <h2>Button Sizes</h2>
+            <p>Bootstrap allows you to easily adjust the size of buttons using predefined size classes:</p>
+            <button class="btn btn-primary btn-lg">Large Button</button>
+            <button class="btn btn-primary">Default Button</button>
+            <button class="btn btn-primary btn-sm">Small Button</button>
+            <button class="btn btn-primary btn-block btn-sm">Small Block Button</button>
+        </section>
+
+        <!-- Button States Section -->
+        <section class="section">
+            <h2>Button States</h2>
+            <p>Buttons can also be styled based on their state, such as active, disabled, or focus:</p>
+            <button class="btn btn-primary active">Active Button</button>
+            <button class="btn btn-primary" disabled>Disabled Button</button>
+        </section>
+
+        <!-- Button Groups Section -->
+        <section class="section">
+            <h2>Button Groups</h2>
+            <p>Button groups allow you to combine multiple buttons together into a single set, keeping them aligned:</p>
+            <div class="btn-group">
+                <button class="btn btn-primary">Button 1</button>
+                <button class="btn btn-primary">Button 2</button>
+                <button class="btn btn-primary">Button 3</button>
+            </div>
+        </section>
+
+        <!-- Vertical Button Groups Section -->
+        <section class="section">
+            <h2>Vertical Button Groups</h2>
+            <p>You can also create vertical button groups by using the `.btn-group-vertical` class:</p>
+            <div class="btn-group-vertical">
+                <button class="btn btn-secondary">Button 1</button>
+                <button class="btn btn-secondary">Button 2</button>
+                <button class="btn btn-secondary">Button 3</button>
+            </div>
+        </section>
+
+        <!-- Buttons with Icons Section -->
+        <section class="section">
+            <h2>Buttons with Icons</h2>
+            <p>You can add icons to buttons by using Font Awesome or similar icon libraries:</p>
+            <button class="btn btn-success">
+                <i class="fas fa-check"></i> Success Button with Icon
+            </button>
+            <button class="btn btn-danger">
+                <i class="fas fa-times"></i> Danger Button with Icon
+            </button>
+        </section>
+
+        <!-- Block-Level Buttons Section -->
+        <section class="section">
+            <h2>Block-Level Buttons</h2>
+            <p>To make buttons occupy the full width of their parent element, use the `.btn-block` class:</p>
+            <button class="btn btn-primary btn-block">Full Width Button</button>
+            <button class="btn btn-success btn-block">Full Width Success Button</button>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap JS, Popper, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>

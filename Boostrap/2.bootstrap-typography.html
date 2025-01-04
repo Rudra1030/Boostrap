@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Bootstrap Classes for Typography</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional Custom Styles -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            padding-top: 30px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Georgia', serif;
+            color: #343a40;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .highlight-text {
+            background-color: #ffd700;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        .callout {
+            background-color: #e2e3e5;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Typography in Bootstrap</h1>
+        <p class="lead text-center">This page demonstrates how to use Bootstrap’s typography classes to style text, headings, and paragraphs.</p>
+
+        <!-- Headings Section -->
+        <section>
+            <h2>Headings</h2>
+            <p>Bootstrap provides predefined classes for headings to make them responsive and consistent across various screen sizes. Here are the examples:</p>
+            <h1>This is a Heading 1 (h1)</h1>
+            <h2>This is a Heading 2 (h2)</h2>
+            <h3>This is a Heading 3 (h3)</h3>
+            <h4>This is a Heading 4 (h4)</h4>
+            <h5>This is a Heading 5 (h5)</h5>
+            <h6>This is a Heading 6 (h6)</h6>
+        </section>
+
+        <!-- Text Alignment Section -->
+        <section>
+            <h2>Text Alignment</h2>
+            <p>Bootstrap provides utility classes for text alignment that can be used on any text element.</p>
+            <p class="text-left">This text is aligned to the left (default).</p>
+            <p class="text-center">This text is aligned to the center.</p>
+            <p class="text-right">This text is aligned to the right.</p>
+        </section>
+
+        <!-- Text Color Section -->
+        <section>
+            <h2>Text Color</h2>
+            <p>Bootstrap comes with predefined text color classes that allow you to easily change the color of text elements:</p>
+            <p class="text-primary">This text uses the <strong>text-primary</strong> class (blue).</p>
+            <p class="text-secondary">This text uses the <strong>text-secondary</strong> class (gray).</p>
+            <p class="text-success">This text uses the <strong>text-success</strong> class (green).</p>
+            <p class="text-danger">This text uses the <strong>text-danger</strong> class (red).</p>
+            <p class="text-warning">This text uses the <strong>text-warning</strong> class (yellow).</p>
+            <p class="text-info">This text uses the <strong>text-info</strong> class (light blue).</p>
+            <p class="text-light bg-dark">This text uses the <strong>text-light</strong> class (light text on dark background).</p>
+            <p class="text-dark">This text uses the <strong>text-dark</strong> class (black).</p>
+        </section>
+
+        <!-- Font Weight Section -->
+        <section>
+            <h2>Font Weight</h2>
+            <p>Bootstrap allows you to adjust the font weight of text using these classes:</p>
+            <p class="font-weight-light">This is light text.</p>
+            <p class="font-weight-normal">This is normal weight text.</p>
+            <p class="font-weight-bold">This is bold text.</p>
+        </section>
+
+        <!-- Text Transform Section -->
+        <section>
+            <h2>Text Transform</h2>
+            <p>To transform text to uppercase, lowercase, or capitalize, you can use the following classes:</p>
+            <p class="text-uppercase">This text is uppercase.</p>
+            <p class="text-lowercase">This text is lowercase.</p>
+            <p class="text-capitalize">This text has capitalized words.</p>
+        </section>
+
+        <!-- Blockquote Section -->
+        <section>
+            <h2>Blockquotes</h2>
+            <p>Blockquotes are used to display large sections of quoted text.</p>
+            <blockquote class="blockquote">
+                <p class="mb-0">“The only limit to our realization of tomorrow is our doubts of today.”</p>
+                <footer class="blockquote-footer">Franklin D. Roosevelt</footer>
+            </blockquote>
+        </section>
+
+        <!-- Callout Section -->
+        <section>
+            <h2>Callout Text</h2>
+            <p>Bootstrap uses alert classes to style important callout text. You can use them for notifications, warnings, etc.</p>
+            <div class="callout">
+                <p><strong>Important Notice:</strong> Please ensure that you review the guidelines before proceeding with any changes.</p>
+            </div>
+        </section>
+
+        <!-- Inline Text Section -->
+        <section>
+            <h2>Inline Text Elements</h2>
+            <p>Bootstrap also provides a few inline text elements for styling parts of the text:</p>
+            <ul>
+                <li><code>.text-muted</code> for muted or less emphasized text.</li>
+                <li><code>.text-decoration-underline</code> for underlined text.</li>
+                <li><code>.text-decoration-line-through</code> for strikethrough text.</li>
+                <li><code>.text-nowrap</code> to prevent text wrapping.</li>
+            </ul>
+        </section>
+
+        <!-- Highlighting Text -->
+        <section>
+            <h2>Highlight Text</h2>
+            <p>You can also use custom classes to highlight certain parts of your text:</p>
+            <p class="highlight-text">This is highlighted text using a custom class.</p>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
